@@ -21,13 +21,13 @@ import { ProfileComponent } from './profile/profile.component';
 import { Comp1Component } from './comp1.component';
 import { Comp2Component } from './comp2.component';
 import { routing } from './app.routing';
-
+import { CollapseModule , BsDropdownModule ,CarouselModule  } from 'ngx-bootstrap';
 @NgModule({
   declarations: [
     AppComponent, Comp1Component, Comp2Component, HelloComponent, AppLayoutComponent, SiteLayoutComponent, AppHeaderComponent, SiteHeaderComponent, SiteFooterComponent, LoginComponent, DashboardComponent, HomeComponent, AboutComponent, RegisterComponent, ProfileComponent
   ],
   imports: [
-    BrowserModule,  FormsModule, routing 
+    BrowserModule,  FormsModule, routing ,CollapseModule.forRoot(), BsDropdownModule.forRoot(), CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

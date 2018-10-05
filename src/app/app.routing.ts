@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 import { SiteLayoutComponent } from './_layout/site-layout/site-layout.component';
-import { AppLayoutComponent } from './_layout/app-layout/app-layout.component';
+//import { AppLayoutComponent } from './_layout/app-layout/app-layout.component';
 
 
 import { HomeComponent } from './home/home.component';
@@ -23,25 +23,35 @@ const appRoutes: Routes = [
         children: [
           { path: '', component: HomeComponent, pathMatch: 'full'},
           { path: 'about', component: AboutComponent },
-          { path: 'test/:id', component: AboutComponent }
+          { path: 'test/:id', component: AboutComponent },
+          { path: 'dashboard', component: DashboardComponent },
+          { path: 'profile', component: ProfileComponent },
+          { path: 'login', component: LoginComponent},
+          { path: 'register', component: RegisterComponent },
+           // otherwise redirect to home
+          { path: '**', redirectTo: '' }
         ]
     },
     
     // App routes goes here here
-    { 
-        path: '',
-        component: AppLayoutComponent, 
-        children: [
-          { path: 'dashboard', component: DashboardComponent },
-          { path: 'profile', component: ProfileComponent }
-        ]
-    },
+    // { 
+    //     path: '',
+    //     component: AppLayoutComponent, 
+    //     children: [
+    //       { path: 'dashboard', component: DashboardComponent },
+    //       { path: 'profile', component: ProfileComponent },
+    //       { path: 'login', component: LoginComponent},
+    //       { path: 'register', component: RegisterComponent },
+    //        // otherwise redirect to home
+    //       { path: '**', redirectTo: '' }
+    //     ]
+    // },
 
     //no layout routes
-    { path: 'login', component: LoginComponent},
-    { path: 'register', component: RegisterComponent },
-    // otherwise redirect to home
-    { path: '**', redirectTo: '' }
+    // { path: 'login', component: LoginComponent},
+    // { path: 'register', component: RegisterComponent },
+    // // otherwise redirect to home
+    // { path: '**', redirectTo: '' }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);
