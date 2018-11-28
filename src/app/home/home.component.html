@@ -18,29 +18,44 @@
     
     <div class="jumbotron">
       <div class="container">
-        <h1 class="display-3">Home Page Works</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <h1 class="display-3">Find Your Product</h1>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-sm-3">
+          <div class="card">  
+            <div class="card-body">
+              <h5 class="card-title text-center">Power banks</h5>
+              <img class="card-img-top " src="https://www.duracell.in/upload/sites/10/2018/10/1-1.png" alt="Card image cap">      
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-sm-3">
+          <div class="card">  
+            <div class="card-body">
+              <h5 class="card-title text-center">Alkaline Batteries</h5>
+              <img class="card-img-top " src="https://www.duracell.in/app/themes/duracell/img/megamenu/alkaline@2x.png" alt="Card image cap">      
+            </div>
+          </div>
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-sm-3">
+          <div class="card">  
+            <div class="card-body">
+              <h5 class="card-title text-center">Rechargeable and Chargers</h5>
+              <img class="card-img-top " src="https://www.duracell.in/app/themes/duracell/img/megamenu/rechargable@2x.png" alt="Card image cap">      
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">  
+            <div class="card-body">
+              <h5 class="card-title text-center">Specialty Batteries</h5>
+              <img class="card-img-top " src="https://www.duracell.in/app/themes/duracell/img/megamenu/specialty@2x.png" alt="Card image cap">      
+            </div>
+          </div>
         </div>
       </div>
 
@@ -48,4 +63,149 @@
 
       
     </div> <!-- /container -->
+    <div class="wrapper product-listing-head">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <h2 class="text-center">Recommended Products</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="swiper-container" #swipercontainer>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" *ngFor="let item of slides">
+          <img [src]="item" class="img-fluid" alt="">
+          <div *ngFor="let item of Product">
+              {{item}}
+          </div>
+        </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<div class="wrapper article-listing">
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12"  style="margin:1.5rem;">
+          <h2 class="text-center">Technology</h2>
+          <p class="section-desc text-center">Learn how the technology used to create our long-lasting batteries makes us the #1 trusted battery brand.</p>
+      </div>
+  </div>
+      <div class="row">
+        
+                              <div class="col-sm-12 col-lg-4">
+                                 
+                                      <div class="row shaa mr-1">
+                                          <div class="col-sm-12 col-md-12 col-lg-12 p-0 ">
+                                              <img src="https://www.duracell.in/upload/sites/10/2016/06/get-the-most-from-list-2.jpg" class="img-fluid" alt="Responsive image">
+                                          </div>
+                                          <div class="col-sm-12 col-md-12 col-lg-12 trans">
+                                              <div class="content" id="con1">
+                                                  <h3><a href="https://www.duracell.in/technology/get-the-most-from-duracell-batteries/">POWERCHECK™ – Get The Most From Duracell Batteries</a></h3>
+                                                  <p>
+                                                      Your devices need reliable and lasting energy, so make sure you take full advantage of the power in your…                                                </p>
+                                                  <a href="https://www.duracell.in/technology/get-the-most-from-duracell-batteries/" target="_self">Learn more</a>                                            </div>
+                                          </div>
+                                      </div>
+                                  
+                              </div>
+                                  <div class="col-sm-12 col-lg-8">
+                                      
+                                          <div class="row shaa mb-4">
+                                             
+                                              <div class="col-md-6 trans" >
+                                                  <div class="content " >
+                                                      <h3><a href="https://www.duracell.in/technology/technology-in-the-service-of-battery-power/">How Are Batteries Made?</a></h3>
+                                                      <p>
+                                                          Alkaline batteries have a long and rich history of powering various everyday devices. Chemical engineering…                                                </p>
+                                                      <a  href="https://www.duracell.in/technology/technology-in-the-service-of-battery-power/" target="_self">Learn more</a>                                            </div>
+                                              </div>
+                                              <div class=" col-md-6 " style="padding-right:0px;">
+                                                  <img src="https://www.duracell.in/upload/sites/10/2016/06/get-the-most-from-list-2.jpg" class="img-fluid" alt="Responsive image">
+                                              </div>
+                                          </div>
+                                     
+                                          <div class="row shaa">
+                                              <div class="col-md-6" style="padding-left:0px;">
+                                                  <img src="https://www.duracell.in/upload/sites/10/2016/06/get-the-most-from-list-2.jpg" class="img-fluid" alt="Responsive image">
+                                              </div>
+                                              <div class="col-md-6">
+                                                  <div class="content" id="con2" >
+                                                      <h3><a  href="https://www.duracell.in/technology/responsible-battery-use-care-and-disposal/">Responsible Battery Use, Care And Disposal</a></h3>
+                                                      <p>
+                                                          Find out how to get the best out of a Duracell battery and learn how to properly recycle them.                                                </p>
+                                                      <a  href="https://www.duracell.in/technology/responsible-battery-use-care-and-disposal/" target="_self">Learn more</a>                                            </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  
+                                      
+                                 
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12 mb-4">
+                                <!-- <button (click)="loadMyChildComponent();">Load More</button>
+                                    <div *ngIf= 'loadComponent'>
+                                        <load-more-tech></load-more-tech>
+                                    </div> -->
+                                    <div class="load-more-wrapper"> 
+                                        <button type="button" (click)="loadMyChildComponent();" class="btn btn-outline-primary">Load more    
+                                        </button> 
+                                        <div *ngIf= 'loadComponent'>
+                                                <load-more-tech></load-more-tech>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+      </div>        
+         
+</div>
+
+<div class="wrapper we-are-duracell">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about">
+                        <h2 class="primary-color mb-5">Hi, we are</h2>
+                        <img class="alignnone size-full wp-image-152 mb-5" src="https://s3-eu-west-1.amazonaws.com/duracell-500/Error-pages/img/we-are-duracell-logo-white.png" alt="we-are-duracell-logo-white" width="auto" height="100">
+                        <p>Duracell is the world’s leading manufacturer of high performance alkaline batteries, specialty cells and rechargeables. <span class="hidden-md-down">Since its foundation in the early 1940s, the company has become an iconic personal power brand, trusted for compact and longer-lasting batteries. And at the heart of it all has been the Duracell Bunny. </span></p>
+                        <a class="button button-brass button-brass-dark" title="Learn more" href="/about/" target="_self">Learn more</a>                             
+                            <div class="image-sequence hidden-md-down">
+                                <div id="trigger"></div>
+                                    <div id="images">
+                                    <img id="seq-image" data-img-base-url="https://www.duracell.in/app/themes/duracell/img/" src="https://www.duracell.in/app/themes/duracell/img/sequences/waving-bunny/CP-master_p005-v003_53.png"><br>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-fluid" id="in-action">
+            <div class="container">
+                <div class="row">
+                    <div class="col-phone-12">
+                        <div class="border-brass border-brass-top">
+                                <h2>
+                                    <div>In action</div>
+                                </h2>
+                                 <p class="section-desc">Duracell powers explorers, learners and adventurers of all ages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+
+
+ 
+
     

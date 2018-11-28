@@ -1,0 +1,243 @@
+.card{
+background-color: #efefef;
+}
+h3,a{
+    color: #c98959;
+
+}
+a:hover{
+    text-decoration: none;
+}
+.product-listing-head {
+    position: relative;
+    color: #fff;
+    background-color: #1e1e1e;
+    padding-top: 4rem;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+}
+  /* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  } */
+  .product-slider {
+    position: relative;
+    color: #fff;
+    background: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e 194px, #111 195px, #111 100%);
+}
+ .rating {
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 33px 0 23px;
+ }
+
+ /* h2{
+     margin: 2rem;
+     font-size: 4rem;
+     padding-top: 2rem;
+ } */
+ .content {
+    /* background-color: #CDDC39; */
+    padding: 0rem;
+}
+.content,.col-md-6{
+     background-color: transparent;
+}
+/* .col-md-6, .col-md-12{
+    padding-bottom: 15px;
+} */
+@media only screen and (min-width: 1200px){
+.content:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 2.4rem solid transparent;
+    border-bottom: 2.4rem solid transparent;
+    border-left: 2.4rem solid #f4f4f4;
+    position: absolute;
+    top: 3rem;
+    right: -3.3rem;
+    transition: border-left-color 250ms;
+    z-index: 10;
+}
+#con1:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 2.4rem solid transparent;
+    border-right: 2.4rem solid transparent;
+    border-bottom: 2.4rem solid #f4f4f4;
+    position: absolute;
+    top: -4.7rem;
+    left: 3rem;
+    transition: border-bottom-color 250ms;
+    z-index: 10;
+}
+#con2:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 2.4rem solid transparent;
+    border-bottom: 2.4rem solid transparent;
+    border-right: 2.4rem solid #f4f4f4;
+    border-left: #f4f4f4;
+    position: absolute;
+    top: 3rem;
+    left: -3.3rem;
+    transition: border-right-color 250ms;
+    z-index: 10;
+}
+}
+/* .col-md-6{
+    height: 50px;
+    width: 100px;
+    background: #31708f;
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-box-shadow: 50px 0px 0 0 lightseagreen inset , -50px 0px 0 lightseagreen inset;
+}*/
+
+/* .row:hover {
+    background-color: yellow;
+} */
+.shaa:hover { 
+    /* box-shadow: 0 0 5px #000; */
+    color: #999;
+    background-color: #1e1e1e;    
+}
+    .shaa:hover 
+
+    .content:after {
+        border-left: 2.4rem solid #1e1e1e;
+    
+}
+.shaa:hover 
+
+#con1:after {
+    border-bottom: 2.4rem solid #1e1e1e;
+
+}
+.shaa:hover 
+
+#con2:after {
+    border-right: 2.4rem solid #1e1e1e;
+
+}
+
+.trans{
+    background-color: transparent;
+}
+.load-more-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+.we-are-duracell{
+    background-image: url('https://www.duracell.in/app/themes/duracell/img/home/we-are-duracell-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 590px;
+}
+.we-are-duracell .col-md-12>div .image-sequence {
+    height: 675px;
+    width: 415px;
+    position: absolute;
+    top: -50px;
+    left: auto;
+    right: -60px;
+}
+.about{
+    padding-top: 4rem;
+    padding-left: 15rem;
+}
+.we-are-duracell .col-md-12 .about h2 {
+    font-size: 3.4rem;
+}
+.we-are-duracell .col-md-12 .about p{
+    font-size: 1.2rem;
+    width: 680px;
+    color: white;
+}
+.we-are-duracell .col-md-12 .about .button {
+    bottom: -16px;
+}
+.button.button-brass.button-brass-dark:hover {
+    background-color: #111;
+}
+#in-action {
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+}
+.border-brass {
+    border: 2px solid #c98959;
+    min-height: 25px;
+    clear: both;
+}
+.border-brass h2 {
+    margin-top: -2.5rem;
+    text-align: center;
+}
+.border-brass h2 div {
+    background-color: #fff;
+    display: inline-block;
+    /* padding-left: .5rem; */
+    /* padding-right: .5rem; */
+}
+#in-action p.section-desc {
+    padding: 0 26rem;
+}
+p.section-desc {
+    font-size: 1.6rem;
+    text-align: center;
+}
+.border-brass.border-brass-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .we-are-duracell .col-md-12 .about p{
+        font-size: 1.2rem;
+        
+        color: white;
+    }
+    .about{
+        padding-top: 4rem;
+        padding-left: 0rem;
+    }
+}

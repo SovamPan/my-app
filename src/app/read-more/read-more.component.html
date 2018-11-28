@@ -1,0 +1,3 @@
+<div [innerHTML]="currentText" (click)="toggleView()">
+</div>
+<button *ngIf="!hideToggle" (click)="toggleView()" style="color:#2070d4;cursor: pointer;font-weight: 500;">Read {{isCollapsed? 'more...':'less...'}}</button>
