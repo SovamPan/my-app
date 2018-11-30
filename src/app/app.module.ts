@@ -18,6 +18,9 @@ import { RegisterComponent } from './register/register.component';
 import { ProfileComponent } from './profile/profile.component';
 import {ReadMoreComponent} from './read-more/read-more.component';
 import {LeadMoreTechComponent} from './load-more-tech/load-more-tech.component';
+import {HomeSwiperComponent} from './home-swiper/home-swiper.component';
+// import { HttpClientModule } from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
 
 
 import { Comp1Component } from './comp1.component';
@@ -27,10 +30,10 @@ import { CollapseModule , BsDropdownModule ,CarouselModule  } from 'ngx-bootstra
 
 @NgModule({
   declarations: [
-    AppComponent, Comp1Component, Comp2Component, HelloComponent, AppLayoutComponent, SiteLayoutComponent, AppHeaderComponent, SiteHeaderComponent, SiteFooterComponent, LoginComponent, DashboardComponent, HomeComponent, AboutComponent, RegisterComponent, ProfileComponent, ReadMoreComponent, LeadMoreTechComponent
+    AppComponent, Comp1Component, Comp2Component, HelloComponent, AppLayoutComponent, SiteLayoutComponent, AppHeaderComponent, SiteHeaderComponent, SiteFooterComponent, LoginComponent, DashboardComponent, HomeComponent, AboutComponent, RegisterComponent, ProfileComponent, ReadMoreComponent, LeadMoreTechComponent, HomeSwiperComponent
   ],
   imports: [
-    BrowserModule,  FormsModule, routing ,CollapseModule.forRoot(), BsDropdownModule.forRoot(), CarouselModule.forRoot() 
+    BrowserModule, HttpClientModule,  FormsModule, routing ,CollapseModule.forRoot(), BsDropdownModule.forRoot(), CarouselModule.forRoot() 
   ],
   providers: [],
   bootstrap: [AppComponent]

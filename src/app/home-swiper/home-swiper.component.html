@@ -1,0 +1,46 @@
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="swiper-container" #swipercontainer>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            
+                            <div class="swiper-slide" *ngFor="let item of slides">
+                                <div class="zoom">
+                              <img [src]="item" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center; margin-left:15%; margin-right:15%; margin-top: 25%">
+
+            
+                <table *ngIf="arrBirds">
+                    <!-- ADD HEADERS -->
+                    <tr>
+                        <th>ID</th>
+                            <th>Name of Bird</th>
+                                <th>Type of Bird</th>
+                                <th>Img of Bird</th>
+                    </tr>
+            
+                    <!-- BIND ARRAY TO TABLE -->
+                    <tr *ngFor="let bird of arrBirds">
+                        <td>{{bird.ID}}</td>
+                        <td>{{bird.Name}}</td>
+                        <td>{{bird.Type}}</td>
+                        <td><img [src]="bird.img" class="img-fluid" alt=""></td>
+                    </tr>
+                </table>
+            </div>

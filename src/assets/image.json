@@ -1,0 +1,43 @@
+[{
+    "ID": "001",
+   "Name": "Eurasian Collared-Dove",
+    "Type": "Dove",
+    "Scientific Name": "Streptopelia",
+    "img":"https://www.duracell.in/upload/sites/10/2016/06/slide2-3.jpg"
+},
+{
+    "ID": "002",
+    "Name": "Bald Eagle",
+    "Type": "Hawk",
+    "Scientific Name": "Haliaeetus leucocephalus" ,
+    "img":"https://www.duracell.in/upload/sites/10/2016/06/slide3-2-2.jpg"
+},
+{
+    "ID": "003",
+    "Name": "Cooper's Hawk",
+    "Type": "Hawk",
+    "Scientific Name": "Accipiter cooperii" ,
+    "img":"https://www.duracell.in/upload/sites/10/2016/06/slide5-1.jpg"
+},
+{
+    "ID": "004",
+   "Name": "Eurasian Collared-Dove",
+    "Type": "Dove",
+    "Scientific Name": "Streptopelia",
+    "img":"https://www.duracell.in/upload/sites/10/2016/06/slide6-5.jpg"
+},
+{
+    "ID": "005",
+    "Name": "Bald Eagle",
+    "Type": "Hawk",
+    "Scientific Name": "Haliaeetus leucocephalus" ,
+    "img":"https://www.duracell.in/upload/sites/10/2016/06/slide3-2-2.jpg"
+},
+{
+    "ID": "006",
+    "Name": "Cooper's Hawk",
+    "Type": "Hawk",
+    "Scientific Name": "Accipiter cooperii" ,
+    "img":"https://www.duracell.in/upload/sites/10/2016/06/slide5-1.jpg"
+}
+]
